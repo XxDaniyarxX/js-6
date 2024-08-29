@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question">
+            <img id="question-image" src="" alt="Изображение вопроса">
+            <p id="question-text">Вопрос появится здесь.</p>
+        </div>
+        <div class="options" id="options">
+            <!-- Опции появятся здесь -->
+        </div>
+        <div id="result"></div>
+        <div class="navigation">
+            <button class="nav-btn" onclick="loadQuestion(0)">1</button>
+            <button class="nav-btn" onclick="loadQuestion(1)">2</button>
+            <button class="nav-btn" onclick="loadQuestion(2)">3</button>
+        </div>
+    </div>
+    <script src="j.js"></script>
+</body>
+</html>

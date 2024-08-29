@@ -1,0 +1,8 @@
+
+body {
+    background: blue;
+}
+.card {
+    flex-direction: row;
+    padding: 30px;
+}
